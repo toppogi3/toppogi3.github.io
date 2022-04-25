@@ -4,10 +4,100 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Picture and Movie</title>
+  <title>写真館</title>
+  <link rel="icon" href="img/favi2.png">
+  <link rel="stylesheet" href="sccvide/style.css">
 </head>
 <body>
-  <p>Yasuaki Jump -> Shirataki Jump</p>
-  <video src = "video/JUMP - SD 480p.mov"controls></video>
+  <header>
+    <div class="container">
+      <a href="picture.html">
+        <h1>
+          <img 
+            src="img/logo.png" 
+            alt="toppogi3"
+            width="45%"
+            height="auto">                        
+          </h1>
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#" class="btn">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  
+  <section class="hero">
+    <img src="video/hero1.jpg" alt="おねむ" class="current">
+    <img src="video/hero2.jpg" alt="マトリョーシカ" >
+    <img src="video/hero3.jpg" alt="ふとん">
+  </section>
+
+  <section class="videos">
+    <div class="container">
+      <h1>SHIRATAKI-KUN VIDEOS</h1>
+      <ul>
+        <li>
+          <a href="#">
+            <video poster="video/JUMP.JPG"
+            width="320px"
+            height="320px"
+            controls>
+            <source src="video/JUMP.mov">
+            </video>
+            <h2>しらたきJUMP</h2>
+            <p>Yasuaki JUMPに合わせて</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <video poster="video/SLOWJUMP.JPG"
+            width="320px"
+            height="320px"
+            controls>
+            <source src="video/SLOWJUMP.mov">
+            </video>
+            <h2>しらたきSLOWJUMP</h2>
+            <p>Ho-Ho-Bruuuu-Gryuuu--</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <video poster="video/WATER.JPG"
+            width="320px"
+            height="320px"
+            controls>
+            <source src="video/water.mov">
+            </video>
+            <h2>水浴び</h2>
+            <p>ぽちゃぽちゃ</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <video poster="video/Hyokori.jpg"
+            width="320px"
+            height="320px"
+            controls>
+            <source src="video/JUMP.mov">
+            </video>
+            <h2>To be updated</h2>
+            <p></p>
+          </a>
+        </li>
+      </ul>
+
+      <a href="#" class="more">もっと見る</a>
+    </div>
+  </section>
+
+  <footer class="copyright"><small>(c) toppogi3.com</small></footer>
+
+
+  <script src="videojs/main.js"></script>
 </body>
 </html>
